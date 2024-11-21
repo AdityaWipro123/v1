@@ -612,7 +612,7 @@ def predict_breakdown(test_file_path):
         #     return df[['Predicted Breakdown']], "Non-zero breakdown codes predicted!"
         # else:
         #     # Return a message indicating no breakdown was predicted
-        #     return None, "No BD predicted"
+        #     return None, "No BD predicted.."
 
                 # Only return results if non-zero codes are predicted
         if non_zero_codes:
